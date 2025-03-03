@@ -1,4 +1,4 @@
-# Home-Automation
+# Smart Sensor Tracking System
 ## Description
 This project is an IoT system using an ESP32 microcontroller to monitor and control various sensors and actuators via MQTT. It includes functionalities for temperature, pressure, air quality, and light measurement, as well as servo motor control.
 
