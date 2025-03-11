@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IoT Dashboard</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Sensor Data</h2>
+      <div id="sensor-data">
+        <p>Temperature: <span id="temperature">Loading...</span> °C</p>
+        <p>Pressure: <span id="pressure">Loading...</span> hPa</p>
+        <p>Light: <span id="light">Loading...</span> %</p>
+      </div>
+    </section>
+    <section>
+      <h2>Control</h2>
+      <button onclick="controlDevice('light', 1)">Turn Light ON</button>
+      <button onclick="controlDevice('light', 0)">Turn Light OFF</button>
+      <label for="servo">Servo Angle:</label>
+      <input type="range" id="servo" min="0" max="180" value="90" oninput="updateServo(this.value)">
+      <span id="servo-angle">90</span>°
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 ES</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
