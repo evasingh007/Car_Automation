@@ -1,6 +1,6 @@
-# Smart Sensor Tracking System
+# Car_Automation
 ## Description
-This project is an IoT system using an ESP32 microcontroller to monitor and control various sensors and actuators via MQTT. It includes functionalities for temperature, pressure, air quality, and light measurement, as well as servo motor control.
+This project is an IoT system using an ESP32 microcontroller to monitor and control various sensors and actuators via MQTT. It includes functionalities for temperature, pressure, air quality, and light measurement, as well as servo motor control to control steering wheel car window opening whenever pressure get high .
 
 ## Table of Contents
 - [Usage](#usage)
